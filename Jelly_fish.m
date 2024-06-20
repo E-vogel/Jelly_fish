@@ -53,7 +53,7 @@ axis([-3 3 -inf inf -2 2]*3)
 daspect([1 1 1])
 view(0,0)
 axis off
-yohaku
+set(gca, 'LooseInset', get(gca, 'TightInset'));
 camlight
 
 X_position = 0;
